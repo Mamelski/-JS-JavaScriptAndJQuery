@@ -3,13 +3,11 @@ var hourNow = today.getHours();
 var greeting;
 
 if (hourNow > 18) {
-    greeting = 'Good evening!';
-} else if (hourNow > 12) {
-    greeting = 'Good afternoon!';
+    greeting = 'Dobry wieczór!';
 } else if (hourNow > 0) {
-    greeting = 'Good morning!';
+    greeting = 'Dzień dobry!';
 } else {
-    greeting = 'Welcome!';
+    greeting = 'Witaj!';
 }
 
 document.write('<h3>' + greeting + '</h3>');
