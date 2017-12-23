@@ -2,7 +2,7 @@
 var greeting = 'Howdy ';
 
 // Store the users name in a variable
-var name = 'Molly';
+var name = 'Jakub';
 
 /* Create the welcome message by concatenating the strings in the two variables */
 var welcomeMessage = greeting + name + '!';
@@ -13,7 +13,7 @@ var el = document.getElementById('greeting');
 // Replace the content of this element with the personal message
 el.textContent = welcomeMessage;
 
-/* 
+/*
 NOTE: textContent does not work in IE8 or earlier
 You can use innerHTML on line 14, but note the security issues on p228-231
 el.innerHTML = welcomeMessage;
