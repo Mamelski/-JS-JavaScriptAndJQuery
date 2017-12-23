@@ -11,13 +11,13 @@ var total = subtotal + shipping; // Total is 77
 var elSub = document.getElementById('subtotal');
 elSub.textContent = subtotal;
 
-var elShip = document.getElementById('shipping');
+var elShip = document.getElementById('shippingCost');
 elShip.textContent = shipping;
 
-var elTotal = document.getElementById('total');
+var elTotal = document.getElementById('totalCost');
 elTotal.textContent = total;
 
-/* 
+/*
 NOTE: textContent does not work in IE8 or earlier
 You can use innerHTML on lines 12, 15, and 18 but note the security issues on p228-231
 elSub.innerHTML = subtotal;
