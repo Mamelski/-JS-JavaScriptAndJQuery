@@ -1,6 +1,6 @@
 // Set up the object
 var hotel = {
-  name : 'Quay',
+  name : 'motel',
   rooms : 40,
   booked : 25,
   checkAvailability : function() {
@@ -12,7 +12,7 @@ var hotel = {
 var elName = document.getElementById('hotelName'); // Get element
 elName.textContent = hotel.name;                   // Update HTML with property of the object
 
-var elRooms = document.getElementById('rooms');    // Get element
+var elRooms = document.getElementById('roomsLeft');    // Get element
 elRooms.textContent = hotel.checkAvailability();   // Update HTML with property of the object
 
 /* 
