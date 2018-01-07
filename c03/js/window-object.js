@@ -10,6 +10,9 @@ msg += '<h2>screen</h2><p>width: ' + window.screen.width + '</p>';
 // Find the height of the computer screen and add it to the msg variable
 msg += '<p>height: ' + window.screen.height + '</p>';
 
+this.name = 'Custom window name';
+msg += '<p>name:' + window.name + '</p>'
+
 // Create a variable called el to hold the element whose id attribute has a value of info
 var el = document.getElementById('info');
 // Write the message into that element
