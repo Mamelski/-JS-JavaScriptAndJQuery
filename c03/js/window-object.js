@@ -18,4 +18,13 @@ var el = document.getElementById('info');
 // Write the message into that element
 el.innerHTML = msg;
 // Find the location of the current page and display it in an alert box
-alert('Current page: ' + window.location);
+
+var message = 'Strona: ' + window.location + '\n';
+message += 'Wysokość: ' + window.innerHeight + '\n';
+message += 'Szerokość: ' + window.innerWidth + '\n';
+message += 'Lokacja: ' + window.location + '\n';
+message += 'Wspolrzedna X: ' + window.pageXOffset + '\n';
+message += 'Wspolrzedna Y: ' + window.pageYOffset + '\n';
+message += 'Długość histori: ' + window.history.length;
+
+alert(message);
