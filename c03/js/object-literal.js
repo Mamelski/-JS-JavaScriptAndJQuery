@@ -19,3 +19,11 @@ elRooms.textContent = hotel.roomsAvailable();   // Update HTML with property of 
 NOTE: textContent does not work in IE8 or earlier
 You can use innerHTML on lines 13 and 16, but note the security issues on p228-231
 */
+
+var moj = {
+  prop1: 1,
+  prop2: "2"
+  prop3: function(wal1){
+    alert(wal1);
+  }
+};
